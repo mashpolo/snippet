@@ -7,4 +7,4 @@
 - python runserver --host=0.0.0.0 --port=8008
 
 ### 启动celery
-- celery -A -A run.celery worker -B -l info
+- celery -A run.celery worker -B -l info
