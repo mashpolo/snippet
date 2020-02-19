@@ -26,7 +26,7 @@ class Config(object):
     LOGFILE_OPER_NAME = "daemon.oper.log"
     LOGFILE_ERROR_NAME = "daemon.error.log"
 
-    # celery
+    # celery config
     CELERY_IMPORTS = ('app.celerys.test_time', )
 
     CELERYBEAT_SCHEDULE = {
